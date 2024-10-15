@@ -1,0 +1,69 @@
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            background-image: url('https://images.unsplash.com/photo-1638398827627-284082155e09?auto=format&fit=crop&q=80&w=1776&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        }
+
+        .container01 {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .side-section {
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            text-align: center;
+            
+        }
+
+        .btn {
+        margin-top: 50px;
+            
+        }
+
+        .btn-info {
+            background-color: #007bff;
+            color: white;
+            width: 100%; /* Set the width to 100% to make buttons the same size */
+        }
+
+        .btn-info:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            color: white;
+            width: 100%; /* Set the width to 100% to make buttons the same size */
+            margin-top: 10px; /* Add margin-top to separate buttons */
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
